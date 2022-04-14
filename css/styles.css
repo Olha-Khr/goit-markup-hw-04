@@ -141,18 +141,22 @@ a {
 /* _______services 1_______________ */
 
 .services {
-  background-color: var(--beckground-second);
-  text-align: center;
-  padding: 200px 0;
-}
-.services {
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient (to right, rgba(47, 48, 58, 0.4)), rgba(47, 48, 58, 0.4),
-    url(../images/img-over.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/overl.jpg);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: var(--beckground-second);
+  text-align: center;
+  padding: 200px 0;
 }
+/* .services {
+} */
 
 .services .container {
   margin: auto;
