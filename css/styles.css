@@ -320,6 +320,20 @@ a {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  margin-bottom: 30px;
+}
+.team-styles-list {
+  display: flex;
+  justify-content: center;
+}
+.team-styles-item + .team-styles-item {
+  margin-left: 10px;
+}
+.team-styles-link {
+  width: 44px;
+  height: 44px;
+  background-color: #000000;
+  border-radius: 50%;
 }
 /* portfolio */
 
