@@ -216,6 +216,23 @@ a {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
+.background {
+  display: flex;
+  border: none;
+  padding: auto;
+  background-color: var(--team-background-color);
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.background-lin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: currentColor;
+  margin: auto;
+  padding: 0;
+}
 /* <-- "title" --> */
 .title {
   color: var(--header-styles-color);
