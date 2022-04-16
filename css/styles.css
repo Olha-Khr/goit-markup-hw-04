@@ -95,6 +95,9 @@ a {
 .contacts .link:hover {
   color: var(--accent-color);
 }
+.current {
+  color: var(--accent-color);
+}
 .link {
   color: var(--header-styles-color);
   text-decoration: none;
@@ -109,9 +112,18 @@ a {
   padding-bottom: 32px;
 }
 .contacts .contact {
-  display: block;
+  display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
+  align-content: stretch;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.contact-icon {
+  display: inline-block;
+  fill: currentColor;
+  margin-right: 10px;
 }
 .contacts .link {
   color: var(--contacts-text-color);
@@ -224,13 +236,9 @@ a {
   background-color: var(--team-background-color);
   border-radius: 4px;
   margin-bottom: 30px;
-}
-.background-lin {
-  display: flex;
   align-items: center;
   justify-content: center;
   fill: currentColor;
-  margin: auto;
   padding: 0;
 }
 /* <-- "title" --> */
