@@ -75,7 +75,6 @@ a {
 .navi {
   display: flex;
   align-items: center;
-  margin: 0;
 }
 /* _______logo___________________ */
 .logo {
@@ -374,41 +373,31 @@ a {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-/* portf-list-item:focus,
-.portf-list-item:hover{
-  
+
+/* <!-- ________ section 5__________ --> */
+.clients-list {
+  display: flex;
+  justify-content: space-between;
 }
-
-.portf-list-item-img{
-  display: block;
-} 
-
-.portf-list-item-text {
-  padding: 20px 24px;
-  border-bottom: rgba(238, 238, 238, 1) solid 1px;
-  border-left: rgba(238, 238, 238, 1) solid 1px;
-  border-right: rgba(238, 238, 238, 1) solid 1px;
+.clients {
+  display: inline-block;
 }
-
-.portf-list-item-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 36px;
-  /* identical to box height, or 200% */
-/* letter-spacing: 0.06em;
-  color: var(--color-dark-212121);
-  margin: 0 0 5px 0;
+.clients-list-ul {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  text-align: center;
+  padding: 16px 32px;
+  border: 1px solid var(--clients-list-color);
+  border-radius: 4px;
+  fill: currentColor;
+  color: var(--clients-list-color);
 }
-
-.portf-list-item-btn {
-  font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 188% */
-/* letter-spacing: 0.03em;
-  color: var(--color-grey-757575);
-  margin: 0;
-} */
-
+.clients-list-ul:hover,
+.clients-list-ul:focus {
+  border-color: var(--button-focus-color);
+  color: var(--button-focus-color);
+}
 /* portfolio */
 
 /* --------------button-------- */
@@ -489,32 +478,8 @@ a {
   font-size: 16px;
   line-height: 1.87;
 }
-/* <!-- ________ section 5__________ --> */
-.clients-list {
-  display: flex;
-  justify-content: space-between;
-}
-.clients {
-  display: inline-block;
-  width: 170px;
-  height: 92px;
 
-  text-align: center;
-  padding: 16px 32px;
-}
-.clients-list-ul {
-  border: 1px solid var(--contacts-text-color);
-  border-radius: 4px;
-  fill: currentColor;
-  color: var(--clients-list-color);
-}
-.clients-list-ul:hover,
-.clients-list-ul:focus {
-  border-color: var(--button-focus-color);
-  color: var(--button-focus-color);
-}
-
-/* --------------------------footer */
+/* ----------footer---------------- */
 
 .footer {
   background-color: var(--beckground-second);
