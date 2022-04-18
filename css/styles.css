@@ -143,13 +143,6 @@ a {
   /* padding-bottom: 0; */
 }
 
-/* .contact:last-child {
-  margin-right: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-} */
-
 .site-nav .item:not(last-child) {
   margin-right: 50px;
 }
